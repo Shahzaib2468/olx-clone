@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
+import Header from './Components/Header'
+import SubHeader from './Components/SubHeader'
 
 function App() {
 
   return (
+    
     <div>
-        <h1>Hello Shahzaib</h1>
-        <h1>Hello Adi</h1>
+      <Header />
+      <SubHeader />
     </div>
   );
 }
