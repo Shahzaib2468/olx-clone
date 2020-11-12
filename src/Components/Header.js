@@ -7,7 +7,10 @@ import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 function Header() {
     return (
         <nav className='header'>
-            <h1>OLX</h1>
+
+            <div style={{margin:"20px"}}>
+                <img height='25px' src='https://olx-clone-react.web.app/static/media/logoimg.6e041e26.png' />
+            </div>
 
             <div className='header_search'>
                 <input placeholder='Your location' value='Pakistan' type='text' className='header_locationSearch' />

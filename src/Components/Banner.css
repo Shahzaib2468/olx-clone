@@ -1,5 +1,9 @@
 .checkout_ad{
     width: 100%;
-    margin-bottom: 10px;
-    margin-top: 5px;
+    background-position: 100%;
+    background-size: cover !important;
+    left: 0;
+    right: 0;
+    /* margin-bottom: 10px;
+    margin-top: 5px; */
 }
