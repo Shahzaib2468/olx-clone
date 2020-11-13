@@ -1,8 +1,8 @@
 import React from 'react';
 import './Header.css'
 import SearchIcon from '@material-ui/icons/Search'
-import { Link } from '@material-ui/core';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
+import Login from './Login'
 
 function Header() {
     return (
@@ -20,14 +20,14 @@ function Header() {
                 <SearchIcon className='header_searchIcon' />
             </div>
 
-            <div className='header_nav'>
-                <Link>
+            <div className='header_nav' style={{display:"flex"}}>
+                {/* <Link>
                     <span>Login</span>
-                </Link>
-
-                <Link>
-                    <button>Sell</button>
-                </Link>
+                </Link> */}
+                <Login />
+                
+                    <button className='btn-sell'>Sell</button>
+                
             </div>
 
         </nav>

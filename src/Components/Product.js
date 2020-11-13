@@ -3,7 +3,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import { Container, Grid } from '@material-ui/core';
 
@@ -45,14 +44,14 @@ export default function OutlinedCard() {
             <h2>Feature Products</h2>
             <Grid container spacing={3} style={{backgroundColor:"#f1f1f1"}}>
                 <Grid item sm={3}>
-                    <Card >
+                    <Card>
                         <CardContent>
                             <img
-                            src="https://apollo-singapore.akamaized.net/v1/files/rrcgyx2u66q11-PK/image;s=300x600;q=60"
+                            src="https://apollo-singapore.akamaized.net/v1/files/ofj2roe2vwqa2-PK/image;s=300x600;q=60"
                             />
-                            <h3>Rs 16,000</h3>
+                            <h3>Rs 10,00000</h3>
                             <Typography className={classes.title} color="textSecondary" gutterBottom>
-                               ISUZU
+                               KIA
                         </Typography>
                         </CardContent>
                         
@@ -63,11 +62,11 @@ export default function OutlinedCard() {
                      <Card >
                         <CardContent>
                             <img
-                            src="https://apollo-singapore.akamaized.net/v1/files/rrcgyx2u66q11-PK/image;s=300x600;q=60"
+                            src="https://apollo-singapore.akamaized.net/v1/files/7s85ch6unfie-PK/image;s=300x600;q=60"
                             />
-                            <h3>Rs 16,000</h3>
+                            <h3>Rs 10,00000</h3>
                             <Typography className={classes.title} color="textSecondary" gutterBottom>
-                               ISUZU
+                               Swift
                         </Typography>
                         </CardContent>
                         
@@ -78,11 +77,11 @@ export default function OutlinedCard() {
                      <Card >
                         <CardContent>
                             <img
-                            src="https://apollo-singapore.akamaized.net/v1/files/rrcgyx2u66q11-PK/image;s=300x600;q=60"
+                            src="https://apollo-singapore.akamaized.net/v1/files/t2o7uekpzf9s3-PK/image;s=300x600;q=60"
                             />
-                            <h3>Rs 16,000</h3>
+                            <h3>Rs 18,00000</h3>
                             <Typography className={classes.title} color="textSecondary" gutterBottom>
-                               ISUZU
+                               Corolla
                         </Typography>
                         </CardContent>
                         
@@ -93,11 +92,11 @@ export default function OutlinedCard() {
                      <Card >
                         <CardContent>
                             <img
-                            src="https://apollo-singapore.akamaized.net/v1/files/rrcgyx2u66q11-PK/image;s=300x600;q=60"
+                            src="https://apollo-singapore.akamaized.net/v1/files/ovhjg869aavg-PK/image;s=300x600;q=60"
                             />
-                            <h3>Rs 16,000</h3>
+                            <h3>Rs 16,0000</h3>
                             <Typography className={classes.title} color="textSecondary" gutterBottom>
-                               ISUZU
+                               RED Car
                         </Typography>
                         </CardContent>
                         
@@ -110,7 +109,86 @@ export default function OutlinedCard() {
                     <Card >
                         <CardContent>
                             <img
+                            src="https://apollo-singapore.akamaized.net/v1/files/whvljv2bhp5j1-PK/image;s=300x600;q=60"
+                            />
+                            <h3>Rs 16,00</h3>
+                            <Typography className={classes.title} color="textSecondary" gutterBottom>
+                               Swing
+                        </Typography>
+                        </CardContent>
+                        
+                    </Card>
+                </Grid>
+
+                <Grid item sm={3}>
+                     <Card >
+                        <CardContent>
+                            <img
+                            src="https://apollo-singapore.akamaized.net/v1/files/h0792ferx08g1-PK/image;s=300x600;q=60"
+                            />
+                            <h3>Rs 20,000000</h3>
+                            <Typography className={classes.title} color="textSecondary" gutterBottom>
+                               House
+                        </Typography>
+                        </CardContent>
+                        
+                    </Card>
+                </Grid>
+
+                <Grid item sm={3}>
+                     <Card >
+                        <CardContent>
+                            <img
+                            src="https://apollo-singapore.akamaized.net/v1/files/ugfeekcir34h2-PK/image;s=300x600;q=60"
+                            />
+                            <h3>Rs 1000</h3>
+                            <Typography className={classes.title} color="textSecondary" gutterBottom>
+                               Machines
+                        </Typography>
+                        </CardContent>
+                        
+                    </Card>
+                </Grid>
+
+                <Grid item sm={3}>
+                     <Card >
+                        <CardContent>
+                            <img
                             src="https://apollo-singapore.akamaized.net/v1/files/rrcgyx2u66q11-PK/image;s=300x600;q=60"
+
+                            />
+                            <h3>Rs 22,0000</h3>
+                            <Typography className={classes.title} color="textSecondary" gutterBottom>
+                               Laptop
+                        </Typography>
+                        </CardContent>
+                        
+                    </Card>
+                </Grid>
+            </Grid>
+
+            <Grid container spacing={3}>
+                <Grid item sm={3}>
+                    <Card >
+                        <CardContent>
+                            <img
+                            src="https://apollo-singapore.akamaized.net/v1/files/6zr4zuqo8jfz2-PK/image;s=300x600;q=60"
+                            />
+                            <h3>Rs 1600</h3>
+                            <Typography className={classes.title} color="textSecondary" gutterBottom>
+                               Kurti
+                        </Typography>
+                        </CardContent>
+                        
+                    </Card>
+                </Grid>
+
+                <Grid item sm={3}>
+                     <Card >
+                        <CardContent>
+                            <img
+                            src="https://apollo-singapore.akamaized.net/v1/files/yycfj7qtl6461-PK/image;s=300x600;q=60"
+
                             />
                             <h3>Rs 16,000</h3>
                             <Typography className={classes.title} color="textSecondary" gutterBottom>
@@ -125,7 +203,7 @@ export default function OutlinedCard() {
                      <Card >
                         <CardContent>
                             <img
-                            src="https://apollo-singapore.akamaized.net/v1/files/rrcgyx2u66q11-PK/image;s=300x600;q=60"
+                            src="https://apollo-singapore.akamaized.net/v1/files/x24dlumvgvff2-PK/image;s=300x600;q=60"
                             />
                             <h3>Rs 16,000</h3>
                             <Typography className={classes.title} color="textSecondary" gutterBottom>
@@ -140,22 +218,7 @@ export default function OutlinedCard() {
                      <Card >
                         <CardContent>
                             <img
-                            src="https://apollo-singapore.akamaized.net/v1/files/rrcgyx2u66q11-PK/image;s=300x600;q=60"
-                            />
-                            <h3>Rs 16,000</h3>
-                            <Typography className={classes.title} color="textSecondary" gutterBottom>
-                               ISUZU
-                        </Typography>
-                        </CardContent>
-                        
-                    </Card>
-                </Grid>
-
-                <Grid item sm={3}>
-                     <Card >
-                        <CardContent>
-                            <img
-                            src="https://apollo-singapore.akamaized.net/v1/files/rrcgyx2u66q11-PK/image;s=300x600;q=60"
+                            src="https://apollo-singapore.akamaized.net/v1/files/rhonvm1kcs19-PK/image;s=300x600;q=60"
                             />
                             <h3>Rs 16,000</h3>
                             <Typography className={classes.title} color="textSecondary" gutterBottom>
@@ -172,7 +235,7 @@ export default function OutlinedCard() {
                     <Card >
                         <CardContent>
                             <img
-                            src="https://apollo-singapore.akamaized.net/v1/files/rrcgyx2u66q11-PK/image;s=300x600;q=60"
+                            src="https://apollo-singapore.akamaized.net/v1/files/7bfoecqfery72-PK/image;s=300x600;q=60"
                             />
                             <h3>Rs 16,000</h3>
                             <Typography className={classes.title} color="textSecondary" gutterBottom>
@@ -187,11 +250,12 @@ export default function OutlinedCard() {
                      <Card >
                         <CardContent>
                             <img
-                            src="https://apollo-singapore.akamaized.net/v1/files/rrcgyx2u66q11-PK/image;s=300x600;q=60"
+                            src="https://apollo-singapore.akamaized.net/v1/files/ovhjg869aavg-PK/image;s=300x600;q=60"
+
                             />
-                            <h3>Rs 16,000</h3>
+                            <h3>Rs 19,00000</h3>
                             <Typography className={classes.title} color="textSecondary" gutterBottom>
-                               ISUZU
+                               Red Car
                         </Typography>
                         </CardContent>
                         
@@ -202,73 +266,11 @@ export default function OutlinedCard() {
                      <Card >
                         <CardContent>
                             <img
-                            src="https://apollo-singapore.akamaized.net/v1/files/rrcgyx2u66q11-PK/image;s=300x600;q=60"
+                            src="https://apollo-singapore.akamaized.net/v1/files/u7lranmjo8cb-PK/image;s=300x600;q=60"
                             />
-                            <h3>Rs 16,000</h3>
+                            <h3>Rs 18,0000</h3>
                             <Typography className={classes.title} color="textSecondary" gutterBottom>
-                               ISUZU
-                        </Typography>
-                        </CardContent>
-                        
-                    </Card>
-                </Grid>
-
-                <Grid item sm={3}>
-                     <Card >
-                        <CardContent>
-                            <img
-                            src="https://apollo-singapore.akamaized.net/v1/files/rrcgyx2u66q11-PK/image;s=300x600;q=60"
-                            />
-                            <h3>Rs 16,000</h3>
-                            <Typography className={classes.title} color="textSecondary" gutterBottom>
-                               ISUZU
-                        </Typography>
-                        </CardContent>
-                        
-                    </Card>
-                </Grid>
-            </Grid>
-
-            <Grid container spacing={3}>
-                <Grid item sm={3}>
-                    <Card >
-                        <CardContent>
-                            <img
-                            src="https://apollo-singapore.akamaized.net/v1/files/rrcgyx2u66q11-PK/image;s=300x600;q=60"
-                            />
-                            <h3>Rs 16,000</h3>
-                            <Typography className={classes.title} color="textSecondary" gutterBottom>
-                               ISUZU
-                        </Typography>
-                        </CardContent>
-                        
-                    </Card>
-                </Grid>
-
-                <Grid item sm={3}>
-                     <Card >
-                        <CardContent>
-                            <img
-                            src="https://apollo-singapore.akamaized.net/v1/files/rrcgyx2u66q11-PK/image;s=300x600;q=60"
-                            />
-                            <h3>Rs 16,000</h3>
-                            <Typography className={classes.title} color="textSecondary" gutterBottom>
-                               ISUZU
-                        </Typography>
-                        </CardContent>
-                        
-                    </Card>
-                </Grid>
-
-                <Grid item sm={3}>
-                     <Card >
-                        <CardContent>
-                            <img
-                            src="https://apollo-singapore.akamaized.net/v1/files/rrcgyx2u66q11-PK/image;s=300x600;q=60"
-                            />
-                            <h3>Rs 16,000</h3>
-                            <Typography className={classes.title} color="textSecondary" gutterBottom>
-                               ISUZU
+                               White Car
                         </Typography>
                         </CardContent>
                         

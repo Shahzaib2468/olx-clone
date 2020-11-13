@@ -47,11 +47,11 @@ h1{
     width:  25%;
 }
 
-.header_nav span{
+/* .header_nav span{
     margin: 10px;
     font-weight: bolder;
     color: #002f34;
-}
+} */
 
 .header_nav button{
     margin: 10px;
@@ -66,5 +66,25 @@ h1{
     color: white;
     margin-right: 10px;
 }
+
+.btn-sell{
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: rgb(255, 230, 9);
+    /* border: 3px solid rgb(255, 230, 9); */
+    border: 3px solid rgb(255, 230, 9);
+    cursor: pointer;
+}
+
+.btn-sell:hover{
+    background-color: rgb(255, 230, 9);
+    color: white;
+    text-decoration: none;
+  }
 
 
